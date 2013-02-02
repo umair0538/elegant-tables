@@ -1,0 +1,118 @@
+/* Elegant Tables */
+table.elegant_tables{
+	border:1px solid #A8A8A8;
+	width:700px;
+	font-size:14px;
+}
+
+table.elegant_tables td.tbl_top_bar{
+	border:1px solid #989898;
+	background:#336699;
+	color:white;
+	font-weight:bold;
+	height:28px;
+	padding-top:6px;
+	padding-right:8px;
+}
+
+table.elegant_tables td.tbl_header{
+	background:#A8A8A8;
+	color:black;
+	font-weight:bold;
+}
+
+table.elegant_tables td.row{
+	border-left:1px dotted #BEBEBE;
+	border-bottom:1px dotted #BEBEBE;
+}
+
+table.elegant_tables td.even{
+	background:#F8F8F8;
+}
+
+table.elegant_tables td.odd{
+	background:#F0F0F0;
+}
+
+table.elegant_tables div.numbering_div{
+	float:right;
+	padding:3px;
+}
+
+table.elegant_tables a.page_numbering{
+	display:block;
+	background:#65A6D1;
+	float:left;
+	padding:2px 5px;
+	margin-left:5px;
+}
+
+table.elegant_tables a.page_numbering.active_page, table.elegant_tables a.page_numbering:hover{
+	background:white;
+	color:#336699;
+}
+
+table.elegant_tables td.tbl_footer{
+	border:1px solid #336699;
+	background:#336699;
+	color:white;
+	font-weight:bold;
+}
+
+table.elegant_tables td.no_data{
+	color:black;
+	text-align:center;
+}
+
+table.elegant_tables td.tbl_loader{
+	text-align:center;
+}
+
+table.elegant_tables td input.tbl_search_text{
+	padding:3px;
+	width:150px;
+	float:left;
+	border-color:white;
+	font-size:14px;
+}
+
+table.elegant_tables td select{
+	padding:3px;
+	width:70px;
+	border-color:white;
+	font-size:14px;
+}
+
+table.elegant_tables td label{
+	padding-top:6px;
+	padding-left:6px;
+}
+
+table.elegant_tables td input.tbl_search_button{
+	height:24px;
+	float:left;
+}
+
+table.elegant_tables td.tbl_header span.sort_none{
+	background:none;
+	float:right;
+    width: 15px;
+    height: 10px;
+    margin-top: 4px;
+}
+
+table.elegant_tables td.tbl_header span.sort_down{
+	background:url('../images/sort-arrows-down.png');
+	float:right;
+	width: 15px;
+    height: 10px;
+    margin-top: 4px;
+}
+
+table.elegant_tables td.tbl_header span.sort_up{
+	background:url('../images/sort-arrows-up.png');
+	float:right;
+	width: 15px;
+    height: 10px;
+    margin-top: 4px;
+}

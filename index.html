@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<title>Elegant Tables</title>
+		<link type="text/css" href="css/ui-lightness/jquery-ui-1.8.22.custom.css" rel="stylesheet" />
+		<link type="text/css" href="css/reset.css" rel="stylesheet" />
+		<link type="text/css" href="css/style.css" rel="stylesheet" />
+		<link type="text/css" href="css/elegant.tables.css" rel="stylesheet" />
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui-1.8.22.custom.min.js"></script>
+		<script type="text/javascript" src="js/elegant.tables.js"></script>
+		<script>
+			$(document).ready(function() {
+				columns = ["Column1", "Column2", "Column3", "Action"];
+				sorting = [1, 1, 1, 0];
+				options = {
+						id: "table1",
+						number_of_rows: 10,
+						pagination_count: 5,
+						starting_page: 1,
+						columns: columns,
+						sorting_allowed: sorting,
+						src: "data/table.json"
+				};
+				TableFactory(options);
+			});
+		</script>
+		<style>
+		h1{
+			font-size:30px;
+			color:black;
+			margin: 30px 0;
+		}
+		</style>
+	</head>
+	<body>
+		<center>
+			<h1>Elegant Tables</h1>
+			<table id="table1" class="elegant_tables" cellpadding="5">
+				<!--Elegant Table-->
+			</table>
+		</center>
+	</body>
+<html>
